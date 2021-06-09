@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="methods" name="Failed suite [SeleniumHugoTest]" guice-stage="DEVELOPMENT">
+  <test thread-count="4" parallel="methods" name="addVehicles(failed)">
+    <classes>
+      <class name="hugotest.Login">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="completeLogin1"/>
+          <include name="completeLogin4"/>
+          <include name="completeLogin2"/>
+          <include name="afterClass"/>
+          <include name="completeLogin3"/>
+        </methods>
+      </class> <!-- hugotest.Login -->
+    </classes>
+  </test> <!-- addVehicles(failed) -->
+</suite> <!-- Failed suite [SeleniumHugoTest] -->
